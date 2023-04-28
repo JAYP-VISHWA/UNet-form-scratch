@@ -1,0 +1,35 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.3.0
+    hooks:
+    -   id: check-yaml
+        log_file: PreCommit_checks/precommit_standard_checks.log
+    -   id: end-of-file-fixer
+        log_file: PreCommit_checks/precommit_standard_checks.log
+        types_or: [python, pyi]
+    -   id: trailing-whitespace
+        log_file: PreCommit_checks/precommit_standard_checks.log
+        types_or: [python, pyi]
+    -   id: check-docstring-first
+        log_file: PreCommit_checks/precommit_standard_checks.log
+        types_or: [python, pyi]
+
+-   repo: https://github.com/psf/black
+    rev: 22.3.0
+    hooks:
+    -   id: black
+        log_file: PreCommit_checks/formatter.log
+        types_or: [python, pyi]
+        language: python
+
+-   repo: local
+    hooks:
+    - id: pylint
+      name: pylint
+      entry: pylint
+      language: system
+      types: [python]
+      verbose: False
+      log_file: PreCommit_checks/pylint.log
+      args:
+        - --fail-under=8

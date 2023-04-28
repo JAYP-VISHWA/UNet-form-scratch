@@ -1,0 +1,9 @@
+Executable `pylint` not found
+************* Module model
+model.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+model.py:1:0: W0611: Unused import torch (unused-import)
+model.py:2:0: W0611: Unused nn imported from torch (unused-import)
+model.py:3:0: W0611: Unused torchvision.transforms.functional imported as TF (unused-import)
+
+-----------------------------------
+Your code has been rated at 0.00/10
