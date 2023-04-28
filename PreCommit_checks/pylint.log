@@ -7,3 +7,53 @@ model.py:3:0: W0611: Unused torchvision.transforms.functional imported as TF (un
 
 -----------------------------------
 Your code has been rated at 0.00/10
+************* Module model
+model.py:75:0: C0301: Line too long (103/100) (line-too-long)
+model.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+model.py:21:8: R1725: Consider using Python 3 style super() without arguments (super-with-arguments)
+model.py:45:22: C0103: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+model.py:63:4: W0102: Dangerous default value [] as argument (dangerous-default-value)
+model.py:78:8: R1725: Consider using Python 3 style super() without arguments (super-with-arguments)
+model.py:102:22: C0103: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+model.py:126:26: E1101: Module 'torch' has no 'cat' member (no-member)
+model.py:134:4: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+model.py:134:8: E1101: Module 'torch' has no 'randn' member (no-member)
+
+------------------------------------------------------------------
+Your code has been rated at 6.25/10 (previous run: 0.00/10, +6.25)
+************* Module model
+model.py:75:0: C0301: Line too long (103/100) (line-too-long)
+model.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+model.py:21:8: R1725: Consider using Python 3 style super() without arguments (super-with-arguments)
+model.py:45:22: C0103: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+model.py:63:4: W0102: Dangerous default value [] as argument (dangerous-default-value)
+model.py:78:8: R1725: Consider using Python 3 style super() without arguments (super-with-arguments)
+model.py:102:22: C0103: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+model.py:126:26: E1101: Module 'torch' has no 'cat' member (no-member)
+model.py:134:4: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+model.py:134:8: E1101: Module 'torch' has no 'randn' member (no-member)
+
+------------------------------------------------------------------
+Your code has been rated at 6.25/10 (previous run: 6.25/10, +0.00)
+************* Module model
+model.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+model.py:46:22: C0103: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+model.py:64:4: W0102: Dangerous default value [] as argument (dangerous-default-value)
+model.py:104:22: C0103: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+model.py:128:26: E1101: Module 'torch' has no 'cat' member (no-member)
+model.py:136:4: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+model.py:136:8: E1101: Module 'torch' has no 'randn' member (no-member)
+
+------------------------------------------------------------------
+Your code has been rated at 6.88/10 (previous run: 6.25/10, +0.62)
+************* Module model
+model.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+model.py:46:22: C0103: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+model.py:64:4: W0102: Dangerous default value [] as argument (dangerous-default-value)
+model.py:104:22: C0103: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+model.py:128:26: E1101: Module 'torch' has no 'cat' member (no-member)
+model.py:136:4: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+model.py:136:8: E1101: Module 'torch' has no 'randn' member (no-member)
+
+------------------------------------------------------------------
+Your code has been rated at 6.88/10 (previous run: 6.88/10, +0.00)
