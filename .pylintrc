@@ -1,0 +1,13 @@
+[BASIC]
+good-names=e, ex, ax, f, n
+
+[LOGGING]
+# Format style used to check logging format string. `old` means using %
+# formatting, `new` is for `{}` formatting,and `fstr` is for f-strings.
+disable=logging-fstring-interpolation
+
+[MESSAGES CONTROL]
+disable=broad-except
+
+[IMPORTS]
+disable=import-error
