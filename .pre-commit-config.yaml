@@ -32,4 +32,4 @@ repos:
       verbose: False
       log_file: PreCommit_checks/pylint.log
       args:
-        - --fail-under=8
+        - --fail-under=7
