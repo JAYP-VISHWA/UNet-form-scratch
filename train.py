@@ -48,7 +48,7 @@ def train_fn(loader, model, optimizer, loss_fn, scaler):
         scaler.update()
 
         # update tqdm loop
-        loop.set_postfix(loss=loss.items())
+        loop.set_postfix(loss=loss)
 
 
 def main():
